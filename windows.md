@@ -63,7 +63,7 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --e
 ```
 
 ## Setup utility script for achieving similar experience as anaconda
-- Download the script from [setupenv.ps1](utils/setupenv.ps1)
+- Download the script from [setpyenv.ps1](utils/setpyenv.ps1)
 - Put the file in your any folder, e.g. $HOME/bin
 - Add the folder to your PATH environment variable
 - Then you can use below command to activate/change/deactivate your environment (Change YOUR_ENV_NAME to your environment name, say *base*)

@@ -47,8 +47,8 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --e
 
 ## Setup utility script for achieving similar experience as anaconda
 You may choose one of the following methods for this implementation:
-- Add the content in [setupenv.sh](utils/setupenv.sh) to your *.bashrc*
-- Alternatively, put the file [setupenv.sh](utils/setupenv.sh) in your any folder, e.g. *$HOME/bin*, and add below in *.bashrc* as
+- Add the content in [setpyenv.sh](utils/setpyenv.sh) to your *.bashrc*
+- Alternatively, put the file [setpyenv.sh](utils/setpyenv.sh) in your any folder, e.g. *$HOME/bin*, and add below in *.bashrc* as
 ```
 source $HOME/bin/setupenv.sh
 ```
