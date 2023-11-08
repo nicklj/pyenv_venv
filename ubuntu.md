@@ -4,14 +4,14 @@
 curl https://pyenv.run | bash
 ```
 
-## Configure in .bashrc
+## Configure in your shell configuration file (.bashrc for Bash or .zshrc for Zsh)
 ```
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 ```
 
-## Restart shell
+## Restart shell or source the configuration file
 
 ## Check version and install Python (version 3.8 as example)
 ```
@@ -47,8 +47,8 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --e
 
 ## Setup utility script for achieving similar experience as anaconda
 You may choose one of the following methods for this implementation:
-- Add the content in [setpyenv.sh](utils/setpyenv.sh) to your *.bashrc*
-- Alternatively, put the file [setpyenv.sh](utils/setpyenv.sh) in your any folder, e.g. *$HOME/bin*, and add below in *.bashrc* as
+- Add the content in [setpyenv.sh](utils/setpyenv.sh) to your *.bashrc* or *.zshrc*
+- Alternatively, put the file [setpyenv.sh](utils/setpyenv.sh) in your any folder, e.g. *$HOME/bin*, and add below in *.bashrc* or *.zshrc* as:
 ```
 source $HOME/bin/setupenv.sh
 ```
