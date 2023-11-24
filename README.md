@@ -6,7 +6,7 @@ The document and utility scripts for setting up Python environment with pyenv an
 - If you are using Windows, please refer to [windows.md](windows.md)
 
 # Other environment configuration
-- [Gym+MuJoCo.md](Gym+MuJoCo)
+- [Gym+MuJoCo.md](Gym+MuJoCo.md)
 
 # Bug report
 If you meet any problem or bugs, please open an issue, or contact me directly.
