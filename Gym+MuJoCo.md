@@ -12,18 +12,18 @@ pip install "cython<3"
 pip install opencv-python==4.2.0.32
 ```
 
-7. Install pytorch
+3. Install pytorch
 ```
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install torchvision tensorboard
 ```
 
-8. Install pybullet (if needed)
+4. Install pybullet (if needed)
 ```
 pip install pybullet
 ```
 
-9. Install Gymnasium
+5. Install Gymnasium
 ```
 pip install gymnasium[all]
 ```
