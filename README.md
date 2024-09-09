@@ -3,6 +3,8 @@ The document and utility scripts for setting up Python environment with pyenv an
 
 - If you are using Ubuntu, please refer to [ubuntu.md](ubuntu.md)
 
+- If you are using MacOS (M1/2/3), please refer to [macos.md](macos.md)
+
 - If you are using Windows, please refer to [windows.md](windows.md)
 
 # Other environment configuration
